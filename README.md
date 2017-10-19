@@ -7,21 +7,23 @@ Unix touch command implemented in windows
 
 Change the Creation + Modification + Last Access Date/time and if the file does not already exist, create it:
 ```powershell
-PS C:\> touch foo.txt```
-
+PS C:\> touch foo.txt
+```
 Change only the modification time:
 ```powershell
-PS C:\> touch foo.txt -only_modification```
+PS C:\> touch foo.txt -only_modification
+```
 
 Change only the last access time.
 ```powershell
-PS C:\> touch foo.txt -only_access```
+PS C:\> touch foo.txt -only_access
+```
 
 Change multiple files:
 ```powershell
 PS C:\> touch *.bak
-PS C:\> dir . -recurse -filter "*.xls" | touch```
-
+PS C:\> dir . -recurse -filter "*.xls" | touch
+```
 # Adding to the Global Powershell environment $Profile
 $Profile - touch.ps1
 
